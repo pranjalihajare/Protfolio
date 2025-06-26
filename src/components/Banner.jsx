@@ -63,7 +63,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Pranjali`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Pranjali`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "MERN Developer", "Frontend Developer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                 <p>I'm Pranjali Hajare, a dedicated frontend developer with a strong foundation in React, TailwindCSS, and modern UI frameworks.
                 I has hands-on experience building dynamic web applications, including a MERN stack.
                 .</p>
