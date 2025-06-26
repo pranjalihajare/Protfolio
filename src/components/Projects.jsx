@@ -5,7 +5,6 @@ import projImg2 from "../assets/img/ss2.png";
 import projImg3 from "../assets/img/ss3.png";
 import projImg4 from "../assets/img/ss4.png";
 import projImg5 from "../assets/img/ss5.png";
-import projImg6 from "../assets/img/ss6.png";
 import projImg6 from "../assets/img/ss7.png";
 
 
@@ -44,11 +43,7 @@ export const Projects = () => {
       description: "A dynamic shopping website built with React.js that uses the Fake Store API to display products, manage cart functionality, and handle user authentication with a responsive design.",
       imgUrl: projImg5,
     },
-    {
-      title: "User Profile Analyzer",
-      description: "A GitHub User Profile Analyzer built with React and TypeScript that fetches and visualizes user data, repositories, and activity insights using interactive charts.",
-      imgUrl: projImg6,
-    },
+    
     {
       title: "StayFinder",
       description: "Developed StayFinder, an Airbnb clone with secure RESTful APIs using Node.js, Express, MongoDB, and JWT, featuring optimized queries, caching, pagination, and clean, scalable backend architecture.",
