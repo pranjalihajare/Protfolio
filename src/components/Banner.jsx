@@ -24,7 +24,7 @@ export const Banner = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = "/assets/img/PranjaliHajare_Resume.pdf";
-    link.download = "PranjaliHajare_Resume.pdf";
+    link.download = "Pranjali_Hajare_Resume.pdf";
     link.click();
   };
 
