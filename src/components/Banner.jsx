@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
+  const toRotate = [ "MERN Developer", "Frontend Developer", "UI/UX Designer" ];
   const period = 2000;
 
   useEffect(() => {
@@ -24,7 +24,7 @@ export const Banner = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = "/assets/img/PranjaliHajare_Resume.pdf";
-    link.download = "Pranjali_Hajare_Resume.pdf";
+    link.download = "PranjaliHajare_Resume.pdf";
     link.click();
   };
 
